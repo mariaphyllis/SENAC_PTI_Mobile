@@ -1,5 +1,5 @@
 const menu = [
-    { nome: "Beef burger", calorias: 70, preco: 12.0,
+    { name: "Beef Burger", calorias: 70, preco: 12.0,
     logoUri:"https://beefburger.png"},
     { nome: "Pancake", calorias: 60, preco: 11.0,
     logoUri:"https://pancake.png"}];
@@ -31,4 +31,3 @@ const menu = [
     );
     }
     export default App;
-    */

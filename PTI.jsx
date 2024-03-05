@@ -1,7 +1,7 @@
 const menu = [
-    { name: "Beef Burger", calorias: 70, preco: 12.0,
+    { name: "Beef Burger", calorias: 70, price: 12.0,
     logoUri:"https://github.com/mariaphyllis/SENAC_PTI_Mobile/blob/main/beefBurger.png"},
-    { nome: "Pancake", calorias: 60, preco: 11.0,
+    { name: "Pancake", calorias: 60, price: 11.0,
     logoUri:"https://github.com/mariaphyllis/SENAC_PTI_Mobile/blob/main/panquecaBerries.png"}];
     
     function Card({menu}) {
@@ -10,7 +10,7 @@ const menu = [
     <View>
     <Text>{menu.nome}</Text>
     <Text>{menu.calorias} calorias</Text>
-    <Text>$ {menu.preco}</Text>
+    <Text>$ {menu.price}</Text>
     </View>
     <Image
     accessibilityLabel={'imagem de '+menu.name}
